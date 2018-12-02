@@ -1,4 +1,4 @@
-defmodule Days.First.PuzzleTwoHelper do
+defmodule Days.One.PuzzleTwoHelper do
   @moduledoc false
 
   def find_twiced_summary(all_elements, sums, []) do

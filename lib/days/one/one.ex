@@ -1,5 +1,7 @@
-defmodule Days.First do
-  alias Days.First.PuzzleTwoHelper
+defmodule Days.One do
+  @moduledoc false
+
+  alias Days.One.PuzzleTwoHelper
 
   @doc """
     --- Day 1: Chronal Calibration ---
