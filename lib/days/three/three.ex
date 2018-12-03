@@ -113,7 +113,8 @@ defmodule Days.Three do
       |> List.flatten()
       |> Enum.uniq()
     
-    not_overlaped_claims = claims -- overlaped_claims
-    List.first(not_overlaped_claims)
+    claims
+    |> BeautyKernel.list_remove(overlaped_claims)
+    |> List.first()
   end
 end
